@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>TAREA FINAL</title>
+	<meta charset="UTF-8">
+	<meta name="author" content="Cristina Castillo Fuentes">
+	<meta name="description" content="">
+	<meta name="keyword" content="">
+
+	<meta charset="UFT-8">
+
+	<style type="text/css">
+		* {
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		}
+
+		.contenido {
+			max-width: 1024px;
+			margin: 0 auto;
+			padding-top: 80px;
+		}
+
+
+		/* CSS del menú */
+		header {
+			position: fixed;
+			width: 100%;
+			height: 70px;
+			background-color: #ebeafe;
+		}
+
+		nav {
+			max-width: 1024px;
+			margin: 0 auto;
+		}
+
+		header img {
+			padding: 18px 10px;
+		}
+
+		nav ul {
+			float: right;
+			list-style: none;
+			text-align: center;
+			vertical-align: top;
+			margin: 0 5px;
+		}
+
+		nav li {
+			list-style-type: none;
+			display: inline;
+		}
+
+		nav li a {
+			font-size: 0.9em;
+			text-decoration: none;
+			line-height: 70px;
+			padding: 10px 10px;
+			color: black;
+			background-color: white;
+
+
+		}
+
+		nav li a:hover {
+			color: white;
+			background-color: #1e1a4f;
+		}
+
+		/* fin css del menú */
+
+		/*
+		body {
+			background-image: url(IMG/PabloAlborán.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+		}*/
+
+		aside {
+			width: 40%;
+			padding-top: 40px;
+			padding-right: 50px;
+			padding-left: 0.5rem;
+			margin-left: 0.5rem;
+			float: right;
+		}
+
+		aside li {
+			list-style-type: square;
+		}
+
+		h1, h2 {
+			color: #6f9cf5;
+		}
+
+		p {
+
+			line-height: 1.5em;
+		}
+
+		.div_layout {
+			text-align: center;
+		}
+
+		.div_descargas {
+			background-color: #ebeafe;
+			padding: 10px 0px 20px 30px;
+			border: 1px solid #20208d;
+			border-radius: 5px;
+			box-shadow: 10px 5px 5px #dcdcdc;
+		}
+
+		.tabla_descargas td {
+			border: 1px solid lightgray;
+			padding: 20px;
+		}
+
+		.div_flecha {
+			text-align: center;
+			padding: 50px;
+		}
+
+		.flecha_volver {
+			border: 2px solid #20208d;
+			padding: 5px;
+		}
+
+			.pregunta {
+				font-weight: bold;
+				font-size: 1.3em;
+
+			}
+
+	</style>
+
+</head>
+
+
+<body>
+
+	<a name="ancla"></a>
+
+	<!-- encabezado -->
+	<header>
+
+		<!-- navegación: menú de enlaces -->
+		<nav>
+			<a href="index.html"> <img src="IMG/logotipo.png" height="40px"></a>
+
+			<ul>
+				<li><a target="_blank" href="ejemplo.html">SEGUNDA TAREA</a></li>
+				<li><a target="_blank" href="ejemplo2.html">TERCERA TAREA</a></li>
+				<li><a target="_blank" href="ejemplo3.html">CUARTA TAREA</a></li>
+				<li><a href="informacion.html">INFORMACIÓN</a></li>
+				<li><a target="_blank" href="#">WEB COMPAÑER@</a></li>
+				<li><a href="#descargas">DESCARGAS</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- contenido principal -->
+	<main class="contenido">
+
+		<section>
+
+			<h1>Información</h1>
+
+			<p>
+				<span class="pregunta">Qué es una red informática. </span><br>
+				Una red informática es un conjunto de dispositivos que se encuentran interconectados entre si a través de un
+				medio, estos intercambian información y comparten recursos. Son sistemas de comunicación en la que distintos
+				dispositivos actúan de emisor y receptor de manera alterna.
+			</p>
+			<p>
+				<span class="pregunta">Qué es una red LAN. </span><br>
+				Una red de área local o LAN es una red de computadoras que permite la comunicación y el intercambio de datos
+				entre diferentes dispositivos a nivel local, ya que está limitada a distancias cortas. Por esta razón, esta
+				red se utiliza para hogares privados, tales como una casa o un apartamento, y en empresas.
+			</p>
+			<p>
+				<span class="pregunta">Qué es una red WAN. </span><br>
+				Una red de área amplia, o WAN, es una red de computadoras que une e interconecta varias redes de ámbito
+				geográfico mayor, por ejemplo redes de área local, aunque sus miembros no estén todos en una misma ubicación
+				física.
+			</p>
+			<p>
+				<span class="pregunta">Qué es Internet. </span><br>
+				Internet es una red de computadoras que se encuentran interconectadas a nivel mundial para compartir
+				información. Se trata de una red de equipos de cálculo que se relacionan entre sí a través de la utilización
+				de un lenguaje universal.
+			</p>
+			<p>
+				<span class="pregunta">Qué es la Web. </span><br>
+				Es un sistema interconectado de páginas web públicas accesibles a través de Internet. La Web no es lo mismo
+				que el Internet: la Web es una de las muchas aplicaciones construidas sobre Internet. Una página web está
+				compuesta principalmente por información de un tema factible (solo texto o módulos multimedia) así como por
+				hiperenlaces.
+			</p>
+			<p>
+				<span class="pregunta">Qué es WWW. </span><br>
+				En informática, la World Wide Web o red informática mundial es un sistema que funciona a través de internet,
+				por el cual se pueden transmitir diversos tipos de datos a través del Protocolo de Transferencia de
+				Hipertextos o HTTP, que son los enlaces de la página web.
+			</p>
+			<p>
+				<span class="pregunta">Qué es el protocolo HTTP y HTTPS. </span><br>
+				El Protocolo seguro de transferencia de hipertexto es un protocolo de aplicación basado en el protocolo
+				http, destinado a la transferencia segura de datos de hipertexto, es decir, es la versión segura de http. En
+				resumen, el protocolo HTTP es la tecnología subyacente que impulsa la comunicación de red. Como su nombre
+				indica, el protocolo seguro de transferencia de hipertexto (HTTPS) es una versión más segura o una extensión
+				de HTTP.
+			</p>
+			<p>
+				<span class="pregunta">Página web estática vs página web dinámica. </span><br>
+				Una página web dinámica es un tipo de sitio web que genera contenido en tiempo real en función de la
+				interacción del usuario. A diferencia de las páginas web estáticas, que muestran el mismo contenido para
+				todos los usuarios, las páginas web dinámicas pueden personalizarse y cambiar en tiempo real.
+			</p>
+			<p>
+				<span class="pregunta">CMS. Ejemplos. Ventajas e inconvenientes. </span><br>
+				Un CMS (Content Management System) o Sistema de Gestión de Contenidos es un sistema online que permite poner
+				en marcha una página web de forma sencilla y rápida. Se trata de un software que te ayuda a administrar
+				contenidos dinámicos, por ejemplo, un blog, un ecommerce o cualquier tipo de página web.
+	
+			<p>
+				EJEMPLOS<br>
+				1. WordPress. WordPress es, con diferencia, es el sistema de gestión de contenidos más popular.
+				2. Joomla. Después de WordPress, Joomla es el segundo CMS más popular.
+				3. Drupal.
+				4. Magento.
+				5. Squarespace.
+				6. Wix.
+				7. Ghost.
+				9. Shopify.
+			</p>
+	
+			<p>
+				VENTAJAS<br>
+				La edición del contenido es independiente del diseño y la funcionalidad del sitio, por lo que los usuarios
+				que no tienen capacitación técnica pueden administrar su contenido en el sitio web sin tener que jugar con
+				el diseño y la programación.
+				Permisos de acceso selectivo. Como ya hemos comentado, cada usuario puede tener permisos de acceso selectivo
+				en función de sus roles, como autor, editor, colaborador, administrador, etc.
+				Actualización rápida. Las actualizaciones del sitio son rápidas y no requieren esfuerzo cuando se utiliza un
+				CMS.
+				Las opciones más populares son gratuitas. Y aquí está la mejor parte: la mayoría de los programas de CMS son
+				gratis.
+			</p>
+	
+			<p>
+				DESVENTAJAS<br>
+				Riesgos de seguridad. Hay piratas informáticos por ahí que podrían descubrir cómo entrar en la plataforma
+				CMS.
+				Dificultades en el diseño. En cuanto al diseño, puede ser un desafío transformar tu sitio en lo que tienes
+				en mente de forma exacta.
+				Problemas de carga. Los CMS tienden a almacenar aspectos de una página por separado. Esto podría llevar a
+				algunos retrasos y tiempos de carga lentos.
+				También hay limitaciones de funcionalidad.
+				Hay algunos procesos que un CMS no puede manejar sin tener que volver a escribir el código.
+			</p>
+			<p>
+				<span class="pregunta">Proveedor de servicios de Internet. Ejemplos. </span><br>
+				El proveedor de servicios de internet (ISP, por las siglas de
+				Internet Service Provider) es la empresa que brinda conexión a Internet a sus clientes. Ejemplos:Movistar,
+				Vodafone, Orange, Yoigo, etc.
+			</p>
+			<p>
+				<span class="pregunta">Dirección IP. Diferencia entre una dirección IP privada y pública. </span><br>
+				Una dirección IP privada se utiliza dentro
+				de una red privada para conectarse de forma segura a otros dispositivos dentro de esa misma red. Una
+				dirección IP pública te identifica ante el resto de Internet para que toda la información que buscas pueda
+				encontrarte.
+			</p>
+			<p>
+				<span class="pregunta">¿Qué es el alojamiento web/hosting? Ejemplos. </span><br>
+				El alojamiento web es un servicio que almacena su sitio web o
+				aplicación web y lo hace fácilmente accesible a través de diferentes dispositivos como el escritorio, el
+				móvil y las tabletas. Ejemplos: GoDaddy, SiteGround, One.com, etc
+			</p>
+				
+		</section>
+
+
+	</main>
+
+
+
+	<!-- pie de página-->
+	<footer class="contenido">
+
+		<div class="div_layout">
+			<hr>
+			<h2>Layout de esta web:</h2>
+			<img src="IMG/layout.jpg" title="Layout" />
+		</div>
+
+		<div class="div_descargas">
+			<!-- Ancla para llegar a esta zona desde el menu -->
+			<a name="descargas"></a>
+
+			<p>ZONA DE DESCARGAS</p>
+			<table class="tabla_descargas">
+				<tr>
+					<td><a target="_blank" href="ZIP/ejemplo.zip">SEGUNDA TAREA</a></td>
+					<td><a target="_blank" href="ZIP/ejemplo2.zip">TERCERA TAREA</a></td>
+					<td><a target="_blank" href="ZIP/ejemplo3.zip">CUARTA TAREA</a></td>
+				</tr>
+			</table>
+		</div>
+
+
+		<div class="div_flecha">
+			<a href="#ancla"><img class="flecha_volver" src="IMG/flecha.png" width="5%"
+					title="Volver arriba"></a>
+		</div>
+	</footer>
+
+
+
+</body>
+
+</html>
